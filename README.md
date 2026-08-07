@@ -77,7 +77,7 @@ No modules.
 | <a name="input_name"></a> [name](#input\_name) | Name of the cost anomaly alert rule.<br/><br/>  Examples:<br/><br/>  - `dailyanomalybyresourcegroupforsubalzconnectivity`<br/>  - `weeklyanomalybyresourcegroupforsubsharedaksdev`<br/>  - `monthlyanomalybyresourcegroupforsubalzmanagement` | `string` | n/a | yes |
 | <a name="input_start_date"></a> [start\_date](#input\_start\_date) | Start date of the cost anomaly alert rule.<br/><br/>  Examples:<br/><br/>  - `2026-08-07` | `string` | n/a | yes |
 | <a name="input_subject"></a> [subject](#input\_subject) | Email subject line for the cost anomaly alert rule. Length is limited to 70 characters.<br/><br/>  Examples:<br/><br/>  - `Cost anomaly detected for subscription alz-connectivity`<br/>  - `Cost anomaly detected for EA billing account 12345678`<br/>  - `Cost anomaly detected for MCA billing account John Doe` | `string` | n/a | yes |
-| <a name="input_subscription_id"></a> [subscription\_id](#input\_subscription\_id) | Subscription ID to be used for the cost anomaly alert rule.<br/><br/>  If not set, the subscription ID of the current context will be used.<br/><br/>  Examples:<br/><br/>  - `00000000-0000-0000-4000-000000000000` | `string` | `null` | no |
+| <a name="input_subscription_id"></a> [subscription\_id](#input\_subscription\_id) | Subscription ID to be used for the cost anomaly alert rule.<br/><br/>  If not set, the subscription ID of the current context will be used.<br/><br/>  Examples:<br/><br/>  - `00000000-0000-4000-0000-000000000000` | `string` | `null` | no |
 
 ## Outputs
 
