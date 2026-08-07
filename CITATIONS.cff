@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: Terraform module to manage Azure cost anomaly alert rules.
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - orcid: "https://orcid.org/0009-0002-1956-1126"
+    given-names: Alexandre
+    family-names: PARÈS
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20787703
+repository-code: >-
+  https://github.com/alexandre-pares/terraform-azure-cost-anomaly-alert-rules
+repository-artifact: >-
+  https://registry.terraform.io/modules/alexandre-pares/cost-anomaly-alert-rules/azure/latest
+abstract: >-
+  Terraform module to manage Azure cost anomaly alert rules. Create cost anomaly alert rules to receive daily/weekly/monthly detailed alerts by email. Support only Azure subscription, other scopes such as billing account (EA/MCA/MPA) or resource groups aren't supported by this service.
+keywords:
+  - terraform
+  - terraform-modules
+  - azure
+  - azurerm
+  - azure-billing
+  - cost-management
+  - cost-anomaly-alert
+  - finops
+license: Apache-2.0
