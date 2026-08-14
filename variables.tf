@@ -146,3 +146,20 @@ variable "end_date" {
   nullable = true
   default  = null
 }
+
+variable "notification_email" {
+  description = <<DESCRIPTION
+  Email address of the point of contact that should get the unsubscribe requests and notification emails.
+
+  If not set, the first email in the `var.contact_emails` wil be used.
+
+  Example:
+
+  - `john.doe@example.com`
+
+  DESCRIPTION
+
+  type     = string
+  nullable = true
+  default  = null
+}

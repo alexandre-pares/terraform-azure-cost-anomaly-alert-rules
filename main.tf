@@ -21,7 +21,8 @@ resource "azapi_resource" "this" {
         to       = var.contact_emails
         language = local.language
       }
-      status = "Enabled"
+      notificationEmail = try(var.notification_email, var.contact_emails[0])
+      status            = "Enabled"
     }
   }
 }
