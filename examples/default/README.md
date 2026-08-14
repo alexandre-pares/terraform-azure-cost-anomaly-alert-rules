@@ -8,7 +8,7 @@ This example create a cost anomaly alert rule for the default subscription.
 ```hcl
 module "daily_cost_anomaly_alert_rule" {
   source  = "alexandre-pares/cost-anomaly-alert-rules/azure"
-  version = "1.0.1"
+  version = "1.0.2"
 
   name           = "dailyanomalybyresourcegroupforsubsandbox"
   display_name   = "Daily cost anomaly for subscription sandbox"

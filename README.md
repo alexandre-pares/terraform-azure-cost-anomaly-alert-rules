@@ -15,7 +15,7 @@ I recommend to integrate this module in your [subscription vending automation](h
 ```hcl
 module "daily_cost_anomaly_alert_rule" {
   source  = "alexandre-pares/cost-anomaly-alert-rules/azure"
-  version = "1.0.1"
+  version = "1.0.2"
 
   name           = "dailyanomalybyresourcegroupforsubsandbox"
   display_name   = "Daily cost anomaly for subscription sandbox"
